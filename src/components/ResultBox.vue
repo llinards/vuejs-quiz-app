@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="mb-3">{{ username }}, quiz completed!</h3>
+    <h3 class="mb-3">{{ username }}, you successfully completed the quiz!</h3>
     <h4 class="mb-3">
       Your score is: <strong>{{ correctAnswers }}</strong
       >/<strong>{{ totalQuestions }}</strong>.

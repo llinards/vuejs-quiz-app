@@ -1,4 +1,9 @@
-# client
+# Quiz app
+
+## Clone this repository
+```
+git clone git@github.com:llinards/vuejs-quiz-app.git
+```
 
 ## Project setup
 ```
@@ -15,5 +20,5 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Public demo
+See [here](https://romantic-beaver-f72573.netlify.app/).
