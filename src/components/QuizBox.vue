@@ -26,14 +26,14 @@
             </label>
           </div>
         </div>
-        <div class="cta-buttons mb-5">
+        <div class="buttons mb-5">
           <button
             v-show="
               selectedAnswer &&
               currentQuestionIndex < totalNumberOfQuestions - 1
             "
             @click="nextQuestion"
-            class="btn mx-auto w-35 button"
+            class="btn mx-auto w-35 button rounded-3"
           >
             Next Question
           </button>
@@ -43,7 +43,7 @@
               currentQuestionIndex == totalNumberOfQuestions - 1
             "
             @click="nextQuestion"
-            class="btn mx-auto w-35 button"
+            class="btn mx-auto w-35 button rounded-3"
           >
             Finish Quiz
           </button>

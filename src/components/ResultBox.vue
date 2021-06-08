@@ -5,7 +5,7 @@
       Your score is: <strong>{{ correctAnswers }}</strong
       >/<strong>{{ totalQuestions }}</strong>.
     </h4>
-    <button @click="reloadPage" class="btn button w-35">Start over</button>
+    <button @click="reloadPage" class="btn button w-35 rounded-3">Start over</button>
   </div>
 </template>
 

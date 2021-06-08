@@ -1,16 +1,14 @@
 <template>
   <div class="container text-center pt-5 pb-5">
     <div class="quiz-container">
-      <div class="quiz-header mb-4">
+      <div class="mb-4">
         <div class="logo w-25 mx-auto">
           <img
             src="https://static.cdn.printful.com/static/images/layout/logo-icon.svg"
             alt=""
           />
         </div>
-        <div class="heading">
-          <h5>Printful Bits Quiz App</h5>
-        </div>
+        <h5>Printful Bits Quiz App</h5>
       </div>
       <Introduction v-if="!isQuizStarted" @start-quiz="quizStarted" />
       <QuizBox
@@ -89,10 +87,9 @@ export default {
 .button:active,
 .button:hover {
   background-color: #00b5ac;
-  border: #00b5ac;
   color: #495057;
   padding: 0.5rem 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #00b5ac;
 }
 
 .button:hover {
