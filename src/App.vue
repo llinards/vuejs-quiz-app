@@ -1,15 +1,5 @@
 <template>
-  <div
-    id="app"
-    class="
-      container
-      text-center
-      pt-5
-      d-flex
-      align-items-center
-      justify-content-center
-    "
-  >
+  <div class="container text-center pt-5">
     <div class="quiz-container">
       <div class="quiz-header mb-4">
         <div class="logo w-25 mx-auto">
@@ -80,8 +70,8 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 #app {
-  background-color: #bdc3c7;
-  min-height: 100vh;
+  /* background-color: #bdc3c7;
+  min-height: 100vh; */
   font-family: "Roboto", sans-serif;
 }
 .quiz-container {
